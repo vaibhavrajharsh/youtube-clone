@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.search-box{
+    width: 30vw;
+    height: 30px;
+    border: 1px solid #c6c6c6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#search{
+    border: none;
+    margin-left: 8px;
+    width: 80%;
+    outline: none;
+}
+
+.search-icon{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.search-mic{
+    background-color: #ececec;
+    border-radius: 50%;
+    vertical-align: middle; 
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-mic:hover{
+    background-color: #d8d8d8;
+}
+
+.mic-logo{
+    vertical-align: middle; 
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    padding: 3px;
+}
+
+.create{   
+    height: 30px;
+    background-color:#ececec;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.create:hover{
+    background-color: #d8d8d8;
+}
+
+
+.plus-icon{
+    padding-left: 5px;
+}
+
+.create p{
+    padding-right: 8px;
+    font-weight: 500;
+}
+
+.bell{
+    margin-right: 15px;
+}
+
+.H1{
+    display: flex; 
+    width: 15%;   
+    justify-content: flex-start;
+}
+
+.H2{
+    display: flex;    
+}
+
+.H3{
+    display: flex; 
+    width: 20%;   
+    justify-content: center;
+}
+
+aside{
+    width: min-content;
+    text-align: center;
+    font-size: 10px;
+    padding: 2px;
+}
+
+aside>.icons>img{
+    width: 28px;
+    
+}
+
+.icons{
+    padding: 16px 0 14px;
+    border-radius: 5px;
+}
+
+.icons:hover{
+    background-color: #ececec ;
+}
+
+.content{
+    display: flex;
+}
+
+.suggetion{
+    display: flex;
+    cursor: pointer;
+}
+
+.topics{
+    padding: 5px 10px;
+    background-color: #ececec;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.videos-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.thumbnail{
+    width: 22vw;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 35px;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+.video-detail{
+    display: flex;
+}
+
+.videos{
+    padding: 3px;
+}
+
+.videos>p{
+    padding: 0 35px;
+}
+
+.videos:hover{
+    border-radius: 8px;
+    .thumbnail{
+        border-radius: 0px;
+    }
+}
+
+
